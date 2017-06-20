@@ -10,14 +10,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 #top-background {
 
 }
 
-#top-background img{
+#top-background img {
   width: 100%;
   background-size: cover;
 }
@@ -29,11 +28,32 @@ body {
   height: 400px;
 }
 
-#characteristic {
+#characteristic img {
   display: block;
-  text-align: center;
-  width: 500px;
+  margin: auto;
+}
 
+#characteristic > img {
+  width: 500px;
+  height: 500px;
+}
+
+#characteristic a img {
+  width: 230px;
+  height: 55px;
+  margin-top : -130px;
+}
+
+#functional {
+  background: url(../images/page1/web/bottom_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#functional img {
+  width: 550px;
+  height: 700px;
+  margin: 50px 0px;
 }
 
 .no-padding {
@@ -41,7 +61,7 @@ body {
 }
 
 .add-margin {
-  margin: 50px auto;
+  margin: 90px auto;
 }
 
 .border-line {
@@ -51,5 +71,5 @@ body {
 }
 
 .sign-inHover:hover img{
-    
+
 }
