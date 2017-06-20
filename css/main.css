@@ -32,6 +32,8 @@ body {
 #characteristic {
   display: block;
   text-align: center;
+  width: 500px;
+
 }
 
 .no-padding {
