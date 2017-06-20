@@ -29,6 +29,11 @@ body {
   height: 400px;
 }
 
+#characteristic {
+  display: block;
+  text-align: center;
+}
+
 .no-padding {
   padding: 0;
 }
