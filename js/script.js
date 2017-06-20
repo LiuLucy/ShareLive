@@ -8,4 +8,5 @@ $(function()
     {
         $('#sign_in_icon').attr('src', 'images/page1/web/sign_in.png');
     });
+
 });
