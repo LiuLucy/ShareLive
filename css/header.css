@@ -1,0 +1,24 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+.navbar {
+  background-color: rgba(143,143,142,0.56);
+}
+
+#logo {
+  display: block;
+  margin: 7.5px 0px;
+  height: 20px;
+}
+
+#sign-in img{
+  padding: 0;
+  height: 35px;
+  width: 100px;
+}
+
+#sign-in:hover {
+}
