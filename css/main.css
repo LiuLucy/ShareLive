@@ -70,6 +70,7 @@ body {
   display: block;
   margin: auto;
   margin-top: 200px;
+  margin-bottom:50px;
 }
 
 #functional img {
@@ -120,4 +121,9 @@ body {
   margin: auto;
   height: 3px;
   background-color: black;
+}
+
+#top-sign-up {
+  width: 230px;
+  height: 55px;
 }
