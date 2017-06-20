@@ -38,7 +38,7 @@ body {
 }
 
 .border-line {
-  border: none;
+  margin: auto;
   height: 3px;
   background-color: black;
 }
