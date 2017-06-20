@@ -6,3 +6,14 @@
   padding: 0px;
   margin: 0px;
 }
+
+.transitions:hover img{
+  -moz-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+.transitions img{
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
