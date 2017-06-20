@@ -12,14 +12,10 @@ body {
   background-size: cover;
 }
 
-#top-background {
-
-}
-
-#top-background img {
+/*#top-background img {
   width: 100%;
   background-size: cover;
-}
+}*/
 
 #features img{
   display: block;
@@ -48,6 +44,21 @@ body {
   background: url(../images/page1/web/bottom_background.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#top-background {
+  width: 100%;
+  height: 100%;
+  background: url(../images/page1/web/top_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#top-background img{
+  display: block;
+  margin-top: 200px;
+  width: 480px;
+  height: 330px;
 }
 
 #functional img {
