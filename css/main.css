@@ -1,3 +1,18 @@
-#all_background {
+body {
+  background: url(../images/page1/web/all_background.png) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top_background {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top_background {
   width: 100%;
 }
