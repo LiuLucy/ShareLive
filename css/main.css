@@ -4,7 +4,6 @@ html , body {
 
 body {
   background: url(../images/page1/web/all_background.png);
-  background-repeat: no-repeat;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -44,6 +43,9 @@ body {
   background: url(../images/page1/web/bottom_background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #top-background {
@@ -52,19 +54,38 @@ body {
   background: url(../images/page1/web/top_background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #top-background img{
   display: block;
   margin-top: 200px;
-  width: 480px;
-  height: 330px;
+  max-width: 480px;
+  max-height: 330px;
+  width: 100%;
+  height: 100%;
 }
 
 #functional img {
   width: 550px;
   height: 700px;
   margin: 50px 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .no-padding {
