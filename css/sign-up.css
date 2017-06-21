@@ -67,8 +67,21 @@ body{
 	z-index: 2;
 }
 
+.login input[type=name]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
 .login input[type=text]{
-	width: 250px;
+  width: 250px;
 	height: 30px;
 	background: transparent;
 	border: 1px solid rgba(255,255,255,0.6);
@@ -78,6 +91,7 @@ body{
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
+	margin-top: 10px;
 }
 
 .login input[type=password]{
@@ -92,6 +106,20 @@ body{
 	font-weight: 400;
 	padding: 4px;
 	margin-top: 10px;
+}
+
+.login input[type=password-check]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
 }
 
 .login input[type=button]{
@@ -127,9 +155,16 @@ body{
 	border: 1px solid rgba(255,255,255,0.9);
 }
 
+.login input[type=name]:focus{
+  outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
 .login input[type=button]:focus{
 	outline: none;
 }
+
+
 
 ::-webkit-input-placeholder{
    color: rgba(255,255,255,0.6);
