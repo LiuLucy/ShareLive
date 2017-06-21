@@ -105,20 +105,14 @@ i {
     margin-left: 100px
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .line canvas{
-          width: 500px;
-          height: 200px;
-    }
-
+.line canvas{
+    width: 1200px;
+    height: 300px;
 }
-@media screen (min-width: 1440px)  {
-    .line canvas{
-        width: 1200px;
-        height: 300px;
-    }
 
-}
+
+
+
 
 .box{
   width:30%; float:left;

@@ -22,12 +22,10 @@ $(function()
 });
 
 
-
-
 $(function(){
   $('#sign_up_hover').hover(function()
   {
-      $('#sign_up_hover').attr('src' , 'images/page1/web/sign_up_hover.png');
+      $('#sign_up_hover').attr('src' , 'images/page1/web/sign-up-hover.png');
   },
   function()
   {
